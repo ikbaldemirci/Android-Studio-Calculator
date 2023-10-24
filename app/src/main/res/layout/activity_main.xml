@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE600"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333ccc"
+        android:text="WEEK_01"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CMPE 408 LAB 2"
+        android:layout_gravity="center"
+        android:background="#41CC1A"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:id="@+id/txtSumNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum of Numbers: "
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="#673AB7"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/inputN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the first number"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/inputN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the second number"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/txtResultIs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result is: "
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="#673AB7"
+        />
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>
